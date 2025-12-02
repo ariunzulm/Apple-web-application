@@ -242,6 +242,7 @@
 /* SCROLLING */
 .scroller {
   overflow-x: hidden;
+  align-items: center;
 }
 #scrolling {
   height: 533px;
@@ -267,6 +268,12 @@
   display: flex;
   margin-top: 14px;
   justify-content: center;
+}
+.bullets-for-web {
+  display: block;
+}
+.bullets-for-pad {
+  display: block;
 }
 .round {
   width: 8px;
@@ -522,6 +529,17 @@
   .web-scrolling {
     display: none;
   }
+  .bullets-for-pad {
+    display: flex;
+    margin-top: 14px;
+    justify-content: center;
+  }
+  .bullets {
+    display: block;
+  }
+  .bullets-for-web {
+    display: block;
+  }
 }
 /* WEBSITE */
 
@@ -637,8 +655,16 @@
   .scroller {
     display: none;
   }
-  .bullets {
+  .bullets-for-web {
     display: flex;
+    margin-top: 14px;
+    justify-content: center;
+  }
+  .bullets {
+    display: block;
+  }
+  .bullets-for-pad {
+    display: block;
   }
   .scroller-web {
     width: 100vw;
