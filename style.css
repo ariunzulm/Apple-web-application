@@ -440,6 +440,15 @@
 }
 /* IPAD */
 @media screen and (min-width: 768px) {
+  .middle-navigation {
+    display: flex;
+    gap: 10px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
   .donating {
     width: 100%;
   }
